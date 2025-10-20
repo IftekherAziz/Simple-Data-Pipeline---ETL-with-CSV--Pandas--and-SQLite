@@ -1,2 +1,108 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# 🧩 ETL Data Pipeline using Python, Pandas, and SQLite
+
+## 📘 Project Overview
+
+This project focuses on building a simple **ETL (Extract, Transform, Load)** pipeline using **Python**, **Pandas**, and **SQLite**. The goal is to understand how data flows through the typical stages of a data engineering process — from raw data extraction to transformation and storage for further analysis.
+
+Through this assignment, I learned how to handle real-world data using Python and how to connect it with an SQL database for analysis. The project also helped me strengthen my understanding of how ETL pipelines work behind the scenes in many data-driven systems.
+
+---
+
+## ⚙️ Key Steps in the ETL Process
+
+### 1. **Extract**
+
+* The data is imported from a **CSV file** using Pandas.
+* This step demonstrates how raw data can be read into a Python environment for preprocessing.
+
+### 2. **Transform**
+
+* Various **Pandas functions** are applied to clean, modify, and enrich the dataset.
+* Common transformations include:
+
+  * Handling missing or duplicate values
+  * Renaming or reordering columns
+  * Aggregating and filtering data
+  * Creating new calculated features
+
+This stage ensures the dataset is structured and ready for database storage or analysis.
+
+### 3. **Load**
+
+* The transformed data is loaded into an **SQLite database** using the `sqlite3` module in Python.
+* This step shows how to integrate Pandas DataFrames with SQL databases for persistent storage.
+
+---
+
+## 🧠 Data Analysis
+
+After loading the data into SQLite, a series of **SQL queries** are written to:
+
+* Retrieve specific information from the database
+* Summarize or aggregate data (e.g., using `GROUP BY`, `COUNT`, or `AVG`)
+* Verify that the transformation was successful
+
+These queries help validate the ETL pipeline and demonstrate how SQL can be used to analyze stored data efficiently.
+
+---
+
+## 🛠️ Tools and Technologies
+
+* **Python 3**
+* **Pandas** – for data manipulation and transformation
+* **SQLite** – for database storage and querying
+* **Jupyter Notebook / VS Code / Any Python IDE** – for implementation
+
+---
+
+## 🎯 Learning Outcomes
+
+By completing this assignment, I was able to:
+
+* Understand the full ETL process and its importance in data workflows
+* Practice data cleaning and transformation techniques using Pandas
+* Learn how to connect and interact with an SQLite database from Python
+* Write SQL queries to analyze structured data
+
+---
+
+## 📂 Project Structure
+
+```
+ETL_Pipeline_Project/
+│
+├── data/
+│   └── source_data.csv          # Original input dataset
+│
+├── etl_pipeline.py              # Main Python script for ETL steps
+│
+├── transformed_data.db          # SQLite database file
+│
+├── queries.sql                  # SQL queries for analysis
+│
+└── README.md                    # Project documentation
+```
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository or download the project files.
+2. Make sure all required libraries are installed:
+
+   ```bash
+   pip install pandas sqlite3
+   ```
+3. Run the ETL script:
+
+   ```bash
+   python etl_pipeline.py
+   ```
+4. Open the SQLite database (`transformed_data.db`) to view or execute SQL queries.
+
+---
+
+## 💡 Conclusion
+
+This assignment provided a practical introduction to data engineering concepts by combining Python, Pandas, and SQL. It showed how to automate the data preparation process and how transformed data can be efficiently stored and queried for insights.
+
