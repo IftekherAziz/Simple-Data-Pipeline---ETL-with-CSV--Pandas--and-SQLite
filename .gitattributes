@@ -8,7 +8,7 @@ The main objective is to design and implement a basic **ETL (Extract, Transform,
 
 Through this project, I learned how to extract raw data from a CSV file, transform it using Pandas functions, and load it into an SQLite database for storage and analysis. It provided hands-on experience with essential **data engineering concepts** and tools commonly used in real-world data workflows.
 
----
+----
 
 ## ⚙️ Key Steps in the ETL Process
 
