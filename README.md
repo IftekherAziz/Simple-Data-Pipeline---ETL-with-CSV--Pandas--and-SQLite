@@ -1,8 +1,6 @@
 # Simple Data Pipeline - ETL with CSV, Pandas, and SQLite
 
 
-# 🧩 ETL Data Pipeline using Python, Pandas, and SQLite
-
 ## 📘 Project Overview
 
 This project was developed as part of the **Information Management and Systems Engineering** master’s course assignment.
