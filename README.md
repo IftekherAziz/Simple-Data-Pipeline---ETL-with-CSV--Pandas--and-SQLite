@@ -99,13 +99,6 @@ ETL_Pipeline_Project/
 ├── notebooks/
 │   └── etl_pipeline.ipynb                # Main Jupyter notebook (ETL process)
 │
-├── outputs/
-│   ├── netflix_titles_clean.csv          # Cleaned dataset
-│   ├── netflix_titles_transformed.csv    # Transformed dataset
-│   ├── netflix_db.sqlite                 # SQLite database with final data
-│
-├── queries/
-│   └── queries.sql                       # SQL queries for data analysis
 │
 └── README.md                             # Project documentation
 ```
