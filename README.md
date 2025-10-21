@@ -110,8 +110,8 @@ ETL_Pipeline_Project/
 ### 1️⃣ **Clone or Download the Repository**
 
 ```bash
-git clone https://github.com/<your-username>/ETL_Pipeline_Project.git
-cd ETL_Pipeline_Project
+git clone https://github.com/IftekherAziz/Simple-Data-Pipeline---ETL-with-CSV--Pandas--and-SQLite.git
+cd Simple-Data-Pipeline---ETL-with-CSV--Pandas--and-SQLite
 ```
 
 ---
@@ -155,19 +155,6 @@ This will:
 
 * Load the raw CSV file
 * Perform all cleaning and transformation steps
-* Save the results into `outputs/netflix_db.sqlite`
-
----
-
-### 5️⃣ **Explore the Database**
-
-After running the notebook, open the SQLite database file:
-
-```bash
-sqlite3 outputs/netflix_db.sqlite
-```
-
-Then run any SQL queries from the provided `queries.sql` file or explore it using a GUI tool such as **DB Browser for SQLite**.
 
 ---
 
